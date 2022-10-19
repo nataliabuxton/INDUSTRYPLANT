@@ -1,0 +1,313 @@
+body {
+    font-family: Gagalin, Sanchez;
+}
+
+h1{
+    font-size: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 100px;
+}
+
+/* Navigation Bar */
+
+.container-fluid {
+    padding-right: 70px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    margin-right: 200px;
+    background-color: #151f28;
+    border-style: none;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+
+.ibrand{
+    color: #8758ff;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+.pbrand{
+    color: #ffcdd3;
+    font-size: larger;
+   position: absolute;
+   transform: rotate(270deg);
+   padding-left: 15px;
+   padding-bottom: 5px;
+}
+.navbar-brand{
+    padding-left: 70px;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: medium;
+    font-family: Sanchez;
+}
+
+/* Top Section*/
+
+.container-fluid{
+    background-color: #151f28;
+    --bs-gutter-x: 0;
+}
+.navbar-expand-lg{
+    padding-bottom: 0;
+}
+
+
+#titlepg{
+    background-color: #181818;
+    padding-bottom: 20px;
+}
+
+
+.rightcol{
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    --bs-gutter-x: 0;
+
+}
+.maineye {
+    width: 850px;
+    height: 990px;
+    position: absolute;
+    padding-left: 70px;
+    padding-right: 110px;
+    z-index: 0;
+    padding-bottom: 200px;
+    padding-top: 90px;
+}
+
+.bigheading {
+    font-family: Gagalin;
+    font-size: 120px;
+    color: #752fbb;
+    text-align: right;
+    padding-top: 5px;
+    border-radius: 0%;
+    position: flex;
+    z-index: 0;
+}
+
+.smallheading{
+    font-family: Gagalin;
+    font-size: 120px;
+    color: #ffcdd3;
+    text-align: right;
+    padding-top: 0;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: -65px;
+}
+
+.catchphrase{
+    font-family: Sanchez;
+    font-size: 23px;
+    text-align: right;
+    color: #f89dff;
+    padding-top: -20px;
+    padding-bottom: 20px;
+}
+
+#downloadbtn{
+        border-radius: 28px;
+        font-family: Gagalin;
+        color: #000000;
+        font-size: 25.4px;
+        background: #ffffff;
+        padding: 6px 17px 6px 17px;
+        outline-color: #ffffff;
+}
+
+#downloadbtn:hover {
+        background: #752fbb;
+        text-decoration: none;
+        color: #ffffff;
+}
+.btncontainer{
+    text-align: right;
+}
+
+/* Who we are */
+
+
+.weareborder{
+    border-right: #2f2f2f;
+    border-top: #2f2f2f;
+    border-bottom: #2f2f2f;
+    border-left: #ffffff;
+    border-style: solid;
+    border-radius: 28px;
+    border-width: 15px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+#whoweare{
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.hrwa{
+    /* DNT */
+    color: #752fbb;
+    width: 59.3%;
+    height: 0.063rem;
+    margin-top: 6.2rem;
+    opacity: 80%;
+    padding-bottom: 0px;
+    padding-top: 1.0625rem;
+}
+
+.weareleft{
+    font-size: 90px;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.wearebodyleft{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 25px;
+    margin-bottom: -15px;
+    font-family: Sanchez;
+
+}
+.splashimg{
+    height: 830px;
+    width: 779px;
+    padding-top: 55px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Features */
+
+.whatwedo{
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 3.0mm;
+    color: #ffff;
+    margin: 0%;
+    padding-right: 20px;
+}
+#title2{
+    background-color: #000000;
+    padding-top: 3px;
+}
+
+.smalleye1{
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    margin-left: 380px;
+}
+.smalleye2{
+    width: 70px;
+    height: 70px;
+    margin-right: 300px;
+    /* transform: rotate(180deg); */
+}
+
+#boxes{
+    background-color: #000000;
+}
+
+.featureimgtop{
+    width: 225px;
+    height: 270px;
+    align-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.pricing-column{
+    padding: 3% 7%;
+    text-align: center;
+    color: #000000;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.featurecap{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn{
+    background-color: #000000;
+    color: #ffff;
+    border-radius: 0;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+
+    
+}
+
+/* Testimonials */
+
+.testimonial-img{
+    height: 200px;
+    width: 200px;
+    margin-left: 460px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    border-radius: 0px;
+}
+
+.carousel-caption{
+    margin-left: 500px;
+    margin-bottom: 90px;
+    text-align: left;
+}
+
+.quote{
+    font-family: Gagalin;
+    font-size: 22px;
+}
+.quote-name{
+    font-family: Sanchez;
+    font-style: italic;
+    font-size: 15px;
+}
+
+
+/* Footer */
+
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    opacity: 70%;
+    font-family: Sanchez;
+    font-size: 9px;
+}
+
+#footer{
+    background-color: #151f28;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0;
+    margin-bottom: -2rem;
+}
